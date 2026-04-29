@@ -2,7 +2,7 @@
 #include <string.h>
 
 // حجم المخزن 
-#define SIZE 10 
+#define SIZE 20 
 
 // بناء هيكل المخزن الدائري
 typedef struct {
@@ -59,7 +59,7 @@ int main() {
     char name[100];
     char suffix[] = "CE-ESY";
     
-    // إدخال الاسم
+    // إدخال الاسم باستخدام الادخال القياسي
     printf("Enter your first name: ");
     scanf("%s", name); 
     
